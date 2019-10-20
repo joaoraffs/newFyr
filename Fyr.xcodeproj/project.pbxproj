@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		253E438517F58C3416A8A1E4 /* Pods_Fyr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7A5B67AB7751F6936A74DAE /* Pods_Fyr.framework */; };
+		5671AAC7235C8D1800BB14AD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5671AAC6235C8D1800BB14AD /* GoogleService-Info.plist */; };
 		A528CD26235BF59E001430A4 /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A528CD25235BF59D001430A4 /* Map.storyboard */; };
 		A528CD28235BF638001430A4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A528CD27235BF638001430A4 /* MapViewController.swift */; };
 		A528CD2A235BF70E001430A4 /* ModelMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A528CD29235BF70E001430A4 /* ModelMap.swift */; };
@@ -21,7 +22,6 @@
 		A562E144235B3ECD00C2A48F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A562E143235B3ECD00C2A48F /* Assets.xcassets */; };
 		A562E147235B3ECD00C2A48F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A562E145235B3ECD00C2A48F /* LaunchScreen.storyboard */; };
 		A58DBFEA235B8F340031BAC2 /* PushNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58DBFE9235B8F330031BAC2 /* PushNotificationManager.swift */; };
-		A58DBFEF235B920B0031BAC2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A58DBFEE235B920B0031BAC2 /* GoogleService-Info.plist */; };
 		A58DBFF1235BA5AC0031BAC2 /* aps_development-4.cer in Resources */ = {isa = PBXBuildFile; fileRef = A58DBFF0235BA5AB0031BAC2 /* aps_development-4.cer */; };
 		A58DBFF3235BB1210031BAC2 /* Location.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A58DBFF2235BB1210031BAC2 /* Location.storyboard */; };
 		A58DBFF5235BB3180031BAC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A58DBFF4235BB3180031BAC2 /* Main.storyboard */; };
@@ -58,6 +58,7 @@
 		37CD207A850DA810315432F4 /* Pods-Fyr-FyrUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fyr-FyrUITests.release.xcconfig"; path = "Target Support Files/Pods-Fyr-FyrUITests/Pods-Fyr-FyrUITests.release.xcconfig"; sourceTree = "<group>"; };
 		51C585304E400070052051C4 /* Pods_FyrTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FyrTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		547540F2A680606BDEEEFE20 /* Pods-FyrTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FyrTests.debug.xcconfig"; path = "Target Support Files/Pods-FyrTests/Pods-FyrTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5671AAC6235C8D1800BB14AD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		80F9A17B9CCD7A9F246182B5 /* Pods-FyrTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FyrTests.release.xcconfig"; path = "Target Support Files/Pods-FyrTests/Pods-FyrTests.release.xcconfig"; sourceTree = "<group>"; };
 		A528CD25235BF59D001430A4 /* Map.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Map.storyboard; sourceTree = "<group>"; };
 		A528CD27235BF638001430A4 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = Model/MapViewController.swift; sourceTree = "<group>"; };
@@ -77,7 +78,6 @@
 		A562E158235B3ECD00C2A48F /* FyrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FyrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A58DBFE9235B8F330031BAC2 /* PushNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationManager.swift; sourceTree = "<group>"; };
 		A58DBFEB235B91070031BAC2 /* FyrRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FyrRelease.entitlements; sourceTree = "<group>"; };
-		A58DBFEE235B920B0031BAC2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A58DBFF0235BA5AB0031BAC2 /* aps_development-4.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = "aps_development-4.cer"; sourceTree = "<group>"; };
 		A58DBFF2235BB1210031BAC2 /* Location.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Location.storyboard; sourceTree = "<group>"; };
 		A58DBFF4235BB3180031BAC2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -194,9 +194,9 @@
 				A5EAEE21235B77400087BF7C /* PushNotificationSender.swift */,
 				A5EAEE29235B7A1F0087BF7C /* LoginExecuter.swift */,
 				A58DBFF0235BA5AB0031BAC2 /* aps_development-4.cer */,
+				5671AAC6235C8D1800BB14AD /* GoogleService-Info.plist */,
 				A528CD27235BF638001430A4 /* MapViewController.swift */,
 				A562E148235B3ECD00C2A48F /* Info.plist */,
-				A58DBFEE235B920B0031BAC2 /* GoogleService-Info.plist */,
 				A53293E9235B8884009F701E /* Model */,
 				A5EAEE28235B79EF0087BF7C /* Backend */,
 			);
@@ -332,12 +332,12 @@
 			files = (
 				A58DBFF1235BA5AC0031BAC2 /* aps_development-4.cer in Resources */,
 				A562E147235B3ECD00C2A48F /* LaunchScreen.storyboard in Resources */,
-				A58DBFEF235B920B0031BAC2 /* GoogleService-Info.plist in Resources */,
 				A58DBFF9235BBB3D0031BAC2 /* Second.storyboard in Resources */,
 				A58DBFF7235BBB1D0031BAC2 /* launch.storyboard in Resources */,
 				A58DBFF3235BB1210031BAC2 /* Location.storyboard in Resources */,
 				A528CD26235BF59E001430A4 /* Map.storyboard in Resources */,
 				A562E144235B3ECD00C2A48F /* Assets.xcassets in Resources */,
+				5671AAC7235C8D1800BB14AD /* GoogleService-Info.plist in Resources */,
 				A562E142235B3ECB00C2A48F /* MainErrado.storyboard in Resources */,
 				A58DBFF5235BB3180031BAC2 /* Main.storyboard in Resources */,
 			);
